@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trigger keyword="Sing a song" >
+
+    <input prompt="What song do you like to sing?" />
+
+</trigger>
