@@ -41,7 +41,7 @@ This project uses the [Guitarparty API](http://www.guitarparty.com/developers/ap
 
 It also uses the following open source libraries:
 
-* [HeadGestureDetector](https://github.com/thorikawa/glass-head-gesture-detector)
+* [Head Gesture Detector for Google Glass](https://github.com/thorikawa/glass-head-gesture-detector)
 * [Guitarparty Java Client Library](https://github.com/thorikawa/guitarparty-java)
 
 ## License
