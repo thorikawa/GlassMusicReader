@@ -37,7 +37,7 @@ You can also use [Android Studio](http://developer.android.com/sdk/installing/st
 
 ## Acknowledgements
 
-This project uses the [Guitarparty API](http://www.guitarparty.com/developers/api-docs/getting-started/). If you want to build yourself, please obtain your API key on the web site.
+This project uses the [Guitarparty API](http://www.guitarparty.com/developers/api-docs/getting-started/).
 
 It also uses the following open source libraries:
 
