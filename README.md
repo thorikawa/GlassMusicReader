@@ -1,7 +1,7 @@
 Glass Music Reader
 ===========
 
-Google Glass application for music performer. You can search any music lyrics/scores by voice command, and turn pages by shaking your head, which means you can sing it with your guitar/piano totally hands-free!
+Glass Music Reader is a google glass application for music performer. You can search any music lyrics/scores by voice command, and turn pages by shaking your head, which means you can sing it with your guitar/piano totally hands-free!
 
 ## Demo
 You can watch a demo video here: http://www.youtube.com/watch?v=fXXalGkkX7M
