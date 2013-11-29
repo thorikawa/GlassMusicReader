@@ -5,7 +5,7 @@ Google Glass application for music performer. You can search any music lyrics/sc
 
 ## Demo
 You can watch a demo video here: http://www.youtube.com/watch?v=fXXalGkkX7M
-![demo image](http://img.youtube.com/vi/fXXalGkkX7M/hqdefault.jpg)
+[![demo image](http://img.youtube.com/vi/fXXalGkkX7M/hqdefault.jpg)](http://www.youtube.com/watch?v=fXXalGkkX7M)
 
 ## Usage
 Say "Sing a song" after "Ok Glass". After prompt shows up, say your favorite song name and/or artist name. 
