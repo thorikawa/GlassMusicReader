@@ -12,7 +12,7 @@ Say "Sing a song" after "Ok Glass". After prompt shows up, say your favorite son
 
 ## Download
 You can download apk file directry here:
-https://drive.google.com/file/d/0ByzlHFEwpidNY09xSUhoTW1FSkE/edit?usp=sharing
+https://drive.google.com/file/d/0ByzlHFEwpidNSmlZbHNkM3FUMkE/edit?usp=sharing
 
 ## Building
 
