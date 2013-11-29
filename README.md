@@ -10,6 +10,10 @@ You can watch a demo video here: http://www.youtube.com/watch?v=fXXalGkkX7M
 ## Usage
 Say "Sing a song" after "Ok Glass". After prompt shows up, say your favorite song name and/or artist name. 
 
+## Download
+You can download apk file directry here:
+https://drive.google.com/file/d/0ByzlHFEwpidNY09xSUhoTW1FSkE/edit?usp=sharing
+
 ## Building
 
 The build requires [Glass Development Kit (GDK)](https://developers.google.com/glass/develop/gdk/)
