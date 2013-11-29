@@ -16,7 +16,9 @@ https://drive.google.com/file/d/0ByzlHFEwpidNSmlZbHNkM3FUMkE/edit?usp=sharing
 
 ## Building
 
-The build requires [Glass Development Kit (GDK)](https://developers.google.com/glass/develop/gdk/)
+First, you need to obtain [Guitarparty API](http://www.guitarparty.com/developers/api-docs/getting-started/) key to build the app. Please obtain API key and put it into `com.polysfactory.glassmusicreader.C` class.
+
+Also, the build requires [Glass Development Kit (GDK)](https://developers.google.com/glass/develop/gdk/)
 to be installed in your development environment. In addition you'll need to set
 the `ANDROID_HOME` environment variable to the location of your SDK:
 
@@ -24,7 +26,7 @@ the `ANDROID_HOME` environment variable to the location of your SDK:
 export ANDROID_HOME=/your/path/to/android-sdk
 ```
 
-After satisfying that requirements, the build is pretty simple:
+After satisfying those requirements, the build is pretty simple:
 
 * Run `./gradlew assembleDebug` from the root directory build the APK only
 * Run `./gradlew installDebug` from the root directory to build and run
