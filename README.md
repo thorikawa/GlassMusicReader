@@ -4,7 +4,7 @@ Glass Music Reader
 Google Glass application for music performer. You can search any music lyrics/scores by voice command, and sing it with a guitar/piano totally hands-free!
 
 ## Demo
-You can watch a demo video here: http://www.youtube.com/embed/fXXalGkkX7M
+You can watch a demo video here: http://www.youtube.com/watch?v=fXXalGkkX7M
 ![demo image](http://img.youtube.com/vi/fXXalGkkX7M/hqdefault.jpg)
 
 ## Usage
