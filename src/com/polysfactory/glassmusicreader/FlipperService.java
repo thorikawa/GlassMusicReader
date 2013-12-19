@@ -47,11 +47,10 @@ public class FlipperService extends Service implements OnHeadGestureListener {
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (mLiveCard == null) {
             Log.d(C.TAG, "Publishing LiveCard");
-            mLiveCard = mTimelineManager.getLiveCard(LIVE_CARD_ID);
-            mLiveCard.setNonSilent(true);
+			mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_ID);
             Intent menu = new Intent(this, MainActivity.class);
             mLiveCard.setAction(PendingIntent.getActivity(this, 0, menu, 0));
-            mLiveCard.publish();
+            mLiveCard.publish(LiveCard.PublishMode.REVEAL);
         }
 
         updateText();
