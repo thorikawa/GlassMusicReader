@@ -8,7 +8,6 @@ import android.util.Log;
 import android.widget.RemoteViews;
 
 import com.google.android.glass.timeline.LiveCard;
-import com.google.android.glass.timeline.TimelineManager;
 import com.polysfactory.headgesturedetector.HeadGestureDetector;
 import com.polysfactory.headgesturedetector.OnHeadGestureListener;
 
@@ -23,7 +22,6 @@ public class FlipperService extends Service implements OnHeadGestureListener {
             "きょう未明メロスは村を出発し、野を越え山越え、十里はなれた此このシラクスの市にやって来た。", "メロスには父も、母も無い。女房も無い。十六の、内気な妹と二人暮しだ。",
             "この妹は、村の或る律気な一牧人を、近々、花婿はなむことして迎える事になっていた。結婚式も間近かなのである。" };
 
-    private TimelineManager mTimelineManager;
     private LiveCard mLiveCard;
     private int mIndex = 0;
     private HeadGestureDetector mHeadGestureDetector;
@@ -31,8 +29,6 @@ public class FlipperService extends Service implements OnHeadGestureListener {
     @Override
     public void onCreate() {
         super.onCreate();
-        mTimelineManager = TimelineManager.from(this);
-
         mHeadGestureDetector = new HeadGestureDetector(this);
         mHeadGestureDetector.setOnHeadGestureListener(this);
         mHeadGestureDetector.start();
@@ -47,7 +43,7 @@ public class FlipperService extends Service implements OnHeadGestureListener {
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (mLiveCard == null) {
             Log.d(C.TAG, "Publishing LiveCard");
-			mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_ID);
+			mLiveCard = new LiveCard(this, LIVE_CARD_ID);
             Intent menu = new Intent(this, MainActivity.class);
             mLiveCard.setAction(PendingIntent.getActivity(this, 0, menu, 0));
             mLiveCard.publish(LiveCard.PublishMode.REVEAL);

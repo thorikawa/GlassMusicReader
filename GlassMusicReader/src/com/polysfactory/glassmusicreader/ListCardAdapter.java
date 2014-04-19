@@ -27,16 +27,6 @@ public class ListCardAdapter extends CardScrollAdapter {
 	}
 
 	@Override
-	public int findIdPosition(Object id) {
-		return -1;
-	}
-
-	@Override
-	public int findItemPosition(Object item) {
-		return -1;
-	}
-
-	@Override
 	public int getCount() {
 		return mList.size();
 	}
@@ -55,5 +45,10 @@ public class ListCardAdapter extends CardScrollAdapter {
 		Log.d(C.TAG, title);
 		titleView.setText(title);
 		return view;
+	}
+
+	@Override
+	public int getPosition(Object o) {
+		return -1;
 	}
 }
