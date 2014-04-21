@@ -12,7 +12,7 @@ Say "Sing a song" after "Ok Glass". After prompt shows up, say your favorite son
 
 ## Download
 You can download apk file directry here:
-https://github.com/thorikawa/GlassMusicReader/releases/download/v1.1/GlassMusicReader-1.1.apk
+https://github.com/thorikawa/GlassMusicReader/releases/download/v1.2/GlassMusicReader-1.2.apk
 
 ## Building
 
